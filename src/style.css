@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn-black {
+  @apply flex justify-center items-center py-4 px-6 rounded-md text-white bg-gradient-to-b from-gray-900 to-gray-800 hover:from-gray-800 hover:to-gray-700 hover:shadow-md active:from-gray-700 active:to-gray-600 active:shadow-inner;
+}
+
+.btn-blue {
+  @apply flex justify-center items-center py-4 px-6 rounded-md text-white bg-gradient-to-b from-blue-500 to-blue-400 hover:from-blue-400 hover:to-blue-300 hover:shadow-md active:from-blue-300 active:to-blue-200 active:shadow-inner;
+}
